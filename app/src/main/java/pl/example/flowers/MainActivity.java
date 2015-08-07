@@ -25,12 +25,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
 		Intent intent = new Intent(this, RoseActivity.class);
 		int id = roses.getCheckedRadioButtonId();
 
+
 		switch (id) {
 		case R.id.rose1:
 			intent.putExtra("flowerId", R.drawable.rose1);
 			break;
 		case R.id.rose2:
 			intent.putExtra("flowerId", R.drawable.rose2);
+
 			break;
 		case R.id.rose3:
 			intent.putExtra("flowerId", R.drawable.rose3);

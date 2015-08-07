@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.example.flowers.RoseActivity" >
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/back"
+        android:textSize="@dimen/medium" />
+
+    <TextView
+        android:id="@+id/rose_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back_button"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/medium" />
+
+    <ImageView
+        android:id="@+id/large_flower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rose_description"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/description" />
+
+</RelativeLayout><!-- From: file:/D:/costrella/szkolenia/AndroidStudioProjects/AndroidStudioProjects/Flowers/app/src/main/res/layout/activity_rose.xml -->
