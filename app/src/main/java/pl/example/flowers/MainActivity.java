@@ -19,6 +19,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 		roses = (RadioGroup) findViewById(R.id.roses);
 		Button showButton = (Button) findViewById(R.id.show_button);
 		showButton.setOnClickListener(this);
+        //test
 	}
 	@Override
 	public void onClick(View v) {
